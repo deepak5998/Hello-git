@@ -6,8 +6,9 @@ git add .(staging area)
 git commit -m "initial commit"
 git status (optiomal)
 git remote add origin (paste ssh)
-ssh-keygen -t rsa -b 4096 -C "youremail@gmail.com"
-tail <path to id_rsa.pub> #add this key to your github acc
+
+(ssh-keygen -t rsa -b 4096 -C "youremail@gmail.com")
+
 git remote add orign <ssh url.git>
 git push origin master
 
