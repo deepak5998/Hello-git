@@ -1,10 +1,11 @@
 touch git ignore
-git config --global user.name harry
-git config --global user.email youremail@gmail.com
+git config --global user.name deepak5998
+git config --global user.email "deepakkumbhar1920@gmail.com"
 git init 
-git add.(staging area)
+git add .(staging area)
 git commit -m "initial commit"
 git status (optiomal)
+git remote add origin (paste ssh)
 ssh-keygen -t rsa -b 4096 -C "youremail@gmail.com"
 tail <path to id_rsa.pub> #add this key to your github acc
 git remote add orign <ssh url.git>
